@@ -32,7 +32,7 @@ def htmltoname(url):
     songname = url.split('/')[-1][:-5]
 
 def main():
-    url = input()
+    url = input("Enter song link")
     htmltoname(url)
     parse(url)
 
